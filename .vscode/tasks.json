@@ -1,0 +1,42 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Compile and Run Java",
+      "type": "shell",
+      "command": "${workspaceFolder}\\run-java.bat",
+      "args": [
+        "${file}"
+      ],
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared"
+      }
+    },
+    {
+      "label": "Compile and Run Java (Legacy)",
+      "type": "shell",
+      "command": "cmd.exe",
+      "args": [
+        "/d",
+        "/c",
+        "for /f \"tokens=2 delims= \" %%a in ('findstr /b /c:\"package \" \"${file}\"') do (setlocal enabledelayedexpansion && set pkg=%%a && set pkg=!pkg:~0,-1! && javac -d OUT \"${file}\" && java -cp OUT !pkg!.${fileBasenameNoExtension} < IO\\input.txt > IO\\output.txt)"
+      ],
+      "problemMatcher": [],
+      "group": "build",
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared"
+      }
+    }
+  ]
+}

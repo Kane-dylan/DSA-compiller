@@ -1,4 +1,4 @@
-package DSA;
+package DSA.Test;
 import java.util.Scanner;
 
 public class Demo{
