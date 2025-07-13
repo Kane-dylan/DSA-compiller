@@ -2,7 +2,7 @@ package DSA.Recursion;
 
 import java.util.Scanner;
 
-public class PrintRevNo{
+public class PrintRevNum{
   //function
   public static void RevNum(int i, int n){
     if(i<1){

@@ -2,19 +2,19 @@ package DSA.Recursion;
 
 import java.util.Scanner;
 
-public class PrintNewNo{
+public class PrintNum{
   //function
-  public static void NewNum(int i, int n){
-    if(i<1){
+  public static void Num(int i, int n){
+    if(i>n){
       return;
     }
-    NewNum(--i,n);
-    System.out.println(i+" ");
+    System.out.print(i+" ");
+    Num(++i, n);
   }
   //function call
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
-    int n= sc.nextInt();
-    NewNum(n, n);
+    int n=sc.nextInt();
+    Num(1, n);
   }
 }
