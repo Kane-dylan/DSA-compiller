@@ -2,7 +2,7 @@ package DSA.Hashing;
 
 import java.util.Scanner;
 
-public class Hash {
+public class HashNum {
 
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
@@ -14,7 +14,7 @@ public class Hash {
     }
 
     // precompute
-    int hash[] = new int[13];
+    int hash[] = new int[100000000];
     for (int i = 0; i < size; i++) {
       hash[arr[i]] += 1;
     }
