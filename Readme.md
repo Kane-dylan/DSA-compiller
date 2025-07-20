@@ -10,7 +10,8 @@ DSA/
 ├── Hashing/         # Hash table implementations
 ├── Mapping/         # Map-based solutions
 ├── Recursion/       # Recursive algorithms
-└── Test/           # Test files
+├── Sorting/         # Sorting algorithms
+└── Test/            # Test files
 ```
 
 ## 🚀 Quick Start
@@ -52,6 +53,10 @@ DSA/
 - [`Palindorme.java`](DSA/Recursion/Palindorme.java) - Check palindrome string
 - [`ArrRev.java`](DSA/Recursion/ArrRev.java) - Reverse array using index
 - [`ArrSwap.java`](DSA/Recursion/ArrSwap.java) - Reverse array using pointers
+
+###    Sorting
+- [`SelectionSort.java`](DSA/Sorting/SelectionSort.java) - selection sorting 
+- [`SelectionSortRec.java`](DSA/Sorting/SelectionSortRec.java) - selection sorting using recursion
 
 ### 🧪 Test Files
 - [`Demo.java`](DSA/Test/Demo.java) - Basic input/output demo
