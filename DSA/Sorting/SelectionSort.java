@@ -5,6 +5,10 @@ import java.util.Scanner;
 public class SelectionSort {
 
   public static void main(String[] args) {
+    //example input 
+    // no. of inputs 7 
+    // array 9 5 4 7 16 22 21
+    
     //input
     Scanner sc = new Scanner(System.in);
     int size= sc.nextInt();
