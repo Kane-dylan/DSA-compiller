@@ -15,6 +15,7 @@ public class SelectionSortRec {
       int temp=arr[min];
       arr[min]=arr[i];
       arr[i]=temp;
+      System.out.println("runs");
     }
   }
 
