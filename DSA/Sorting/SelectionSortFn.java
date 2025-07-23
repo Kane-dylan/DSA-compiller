@@ -2,7 +2,7 @@ package DSA.Sorting;
 
 import java.util.Scanner;
 
-public class SelectionSortRec {
+public class SelectionSortFn {
 
   public static void SelectionSort(int n, int arr[]){
     for(int i=0; i<=n-2; i++){

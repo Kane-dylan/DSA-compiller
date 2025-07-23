@@ -2,7 +2,7 @@ package DSA.Sorting;
 
 import java.util.Scanner;
 
-public class BubbleSortRec {
+public class BubbleSortFn {
 
   public static void BubbleSort(int n, int arr[]){
     for(int i=n-1; i>=1; i--){

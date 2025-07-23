@@ -2,7 +2,7 @@ package DSA.Sorting;
 
 import java.util.Scanner;
 
-public class InsertionSortRec {
+public class InsertionSortFn {
 
   public static void InsertionSort(int n, int arr[]){
     for(int i=0; i<=n-1; i++){

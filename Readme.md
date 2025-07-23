@@ -56,7 +56,11 @@ DSA/
 
 ###    Sorting
 - [`SelectionSort.java`](DSA/Sorting/SelectionSort.java) - selection sorting 
-- [`SelectionSortRec.java`](DSA/Sorting/SelectionSortRec.java) - selection sorting using recursion
+- [`SelectionSortFn.java`](DSA/Sorting/SelectionSortFn.java) - selection sorting using function
+- [`InsertionSort.java`](DSA/Sorting/InsertionSort.java) - Insertion sorting
+- [`InsertionSortFn.java`](DSA/Sorting/InsertionSortFn.java) - Insertion sorting using function
+- [`BubbleSort.java`](DSA/Sorting/BubbleSort.java) - Bubble sorting
+- [`BubbleSortFn.java`](DSA/Sorting/BubbleSortFn.java) - selection sorting using function
 
 ### 🧪 Test Files
 - [`Demo.java`](DSA/Test/Demo.java) - Basic input/output demo
