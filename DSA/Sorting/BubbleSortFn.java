@@ -4,7 +4,12 @@ import java.util.Scanner;
 
 public class BubbleSortFn {
 
-  public static void BubbleSort(int n, int arr[]){
+  // input samples
+  // no. 7
+  // arr 9 5 4 7 16 22 21
+
+    public static void BubbleSort(int n, int arr[]){
+      // algo
     for(int i=n-1; i>=1; i--){
       int didSwap = 0;
       for(int j=0; j<=i-1; j++){

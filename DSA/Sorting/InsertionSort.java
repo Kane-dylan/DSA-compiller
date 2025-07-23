@@ -4,6 +4,10 @@ import java.util.Scanner;
 
 public class InsertionSort {
 
+  // input samples
+  // no. 7
+  // arr 9 5 4 7 16 22 21
+  
   public static void main(String[] args) {
     // input
     Scanner sc= new Scanner(System.in);

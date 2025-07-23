@@ -17,29 +17,34 @@ DSA/
 ## 🚀 Quick Start
 
 1. **Compile & Run**: Use the provided batch file
+
    ```cmd
    run-java.bat <path-to-java-file>
    ```
-
 2. **Input/Output**: Files are located in `IO/` folder
+
    - `input.txt` - Input data
    - `output.txt` - Program output
 
 ## 📁 File Navigation
 
 ### 📊 Basic Concepts
+
 - [`CountNo.java`](DSA/Basic/CountNo.java) - Count digits in a number
 
 ### 🔍 Hashing
+
 - [`HashAll.java`](DSA/Hashing/HashAll.java) - Hash all ASCII characters
 - [`HashNum.java`](DSA/Hashing/HashNum.java) - Hash numbers
 - [`HashStr.java`](DSA/Hashing/HashStr.java) - Hash lowercase strings
 
 ### 🗺️ Mapping
+
 - [`Map.java`](DSA/Mapping/Map.java) - HashMap for integers
 - [`MapStr.java`](DSA/Mapping/MapStr.java) - HashMap for strings
 
 ### 🔄 Recursion
+
 - [`PrintName.java`](DSA/Recursion/PrintName.java) - Print name N times
 - [`PrintNum.java`](DSA/Recursion/PrintNum.java) - Print numbers 1 to N
 - [`PrintRevNum.java`](DSA/Recursion/PrintRevNum.java) - Print numbers N to 1
@@ -54,15 +59,17 @@ DSA/
 - [`ArrRev.java`](DSA/Recursion/ArrRev.java) - Reverse array using index
 - [`ArrSwap.java`](DSA/Recursion/ArrSwap.java) - Reverse array using pointers
 
-###    Sorting
-- [`SelectionSort.java`](DSA/Sorting/SelectionSort.java) - selection sorting 
+### Sorting
+
+- [`SelectionSort.java`](DSA/Sorting/SelectionSort.java) - selection sorting
 - [`SelectionSortFn.java`](DSA/Sorting/SelectionSortFn.java) - selection sorting using function
 - [`InsertionSort.java`](DSA/Sorting/InsertionSort.java) - Insertion sorting
 - [`InsertionSortFn.java`](DSA/Sorting/InsertionSortFn.java) - Insertion sorting using function
 - [`BubbleSort.java`](DSA/Sorting/BubbleSort.java) - Bubble sorting
 - [`BubbleSortFn.java`](DSA/Sorting/BubbleSortFn.java) - selection sorting using function
 
-### 🧪 Test Files
+### 🧪 Test Files		
+
 - [`Demo.java`](DSA/Test/Demo.java) - Basic input/output demo
 - [`Test.java`](DSA/Test/Test.java) - Test implementation
 
