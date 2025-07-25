@@ -9,7 +9,6 @@ public class SelectionSortFn {
   // arr 9 5 4 7 16 22 21
 
   public static void SelectionSort(int n, int arr[]){
-    // inputs
     for(int i=0; i<=n-2; i++){
       int min=i;
       for(int j=i; j<=n-1; j++){

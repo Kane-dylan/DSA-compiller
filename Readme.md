@@ -31,6 +31,7 @@ DSA/
 ### 📊 Basic Concepts
 
 - [`CountNo.java`](DSA/Basic/CountNo.java) - Count digits in a number
+- [`ReverseNum.java`](DSA/Basic/ReverseNum.java) - reversing a number
 
 ### 🔍 Hashing
 
