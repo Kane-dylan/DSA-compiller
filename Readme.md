@@ -69,6 +69,7 @@ DSA/
 - [`BubbleSort.java`](DSA/Sorting/BubbleSort.java) - Bubble sorting
 - [`BubbleSortFn.java`](DSA/Sorting/BubbleSortFn.java) - selection sorting using function
 - [`MergeSort.java`](DSA/Sorting/MergeSort.java) - Merge sorting using function
+- [`QuickSort.java`](DSA/Sorting/QuickSort.java) - Quick sorting using function
 
 ### 🧪 Test Files		
 
