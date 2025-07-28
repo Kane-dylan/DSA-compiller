@@ -19,12 +19,12 @@ public class LeftRoateDth {
     }
 
     int d=sc.nextInt();
+    d=d%n;
     // store up-to d th element in the temp 
     int temp[]=new int[d];
     for(int i=0; i<d; i++){
       temp[i]=arr[i];
     }
-    
     // bring the last elements in the front
     for(int i=d; i<n; i++){
       arr[i-d]=arr[i];
