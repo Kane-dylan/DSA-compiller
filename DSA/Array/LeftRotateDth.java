@@ -2,7 +2,7 @@ package DSA.Array;
 
 import java.util.Scanner;
 
-public class LeftRoateDth {
+public class LeftRotateDth {
 
   // sample input
   // 8
