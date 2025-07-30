@@ -4,6 +4,11 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class IntersectionSortedArrOpt {
+  // sample input
+  // 8
+  // 1 2 2 3 3 4 5 6
+  // 7
+  // 2 3 3 5 6 6 7
 
   public static void main(String[] args) {
     // input
@@ -19,9 +24,11 @@ public class IntersectionSortedArrOpt {
       arr2[i]=sc.nextInt();
     }
 
+    // declare empty arr & pointers 
     ArrayList <Integer> intsec = new ArrayList<>();
     int i=0;
     int j=0;
+    // traversing through the loop
     while(i< n1 && j< n2){
       if(arr1[i]<arr2[j]){
         i++;
@@ -34,6 +41,7 @@ public class IntersectionSortedArrOpt {
       }
     }
     
+    // output
     for (int j2 = 0; j2 <intsec.size(); j2++) {
       System.out.print(intsec.get(j2)+" ");
     }
