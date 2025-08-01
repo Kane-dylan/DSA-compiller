@@ -3,6 +3,9 @@ package DSA.Array;
 import java.util.Scanner;
 
 public class MaxCosecutive {
+  //sample input
+  // 9
+  // 1 1 0 1 1 1 0 1 1
 
   public static void main(String[] args) {
     Scanner sc= new Scanner(System.in);
