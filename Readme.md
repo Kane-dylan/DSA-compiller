@@ -53,6 +53,7 @@ DSA/
 - [`LinearSearch.java`](DSA/Array/LinearSearch.java) - Linear search in array
 - [`UnionSortedArr.java`](DSA/Array/UnionSortedArr.java) - Union of two sorted arrays (using Set)
 - [`UnionSortedArrOpt.java`](DSA/Array/UnionSortedArrOpt.java) - Optimized union using two pointers
+- [`FindNumAppear.java`](DSA/Array/FindNumAppear.java) - Find number appearing once (XOR approach)
 
 ### 🔍 Hashing
 
@@ -91,8 +92,6 @@ DSA/
 - [`Palindorme.java`](DSA/Recursion/Palindorme.java) - Check palindrome string
 - [`ArrRev.java`](DSA/Recursion/ArrRev.java) - Reverse array using index
 - [`ArrSwap.java`](DSA/Recursion/ArrSwap.java) - Reverse array using pointers
-
-### ♻️ Recursive Algorithms
 
 ### 🧪 Test Files
 
