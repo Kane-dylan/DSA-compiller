@@ -38,22 +38,27 @@ DSA/
 
 ### 🔢 Array Operations
 
+- [`FindNumAppear.java`](DSA/Array/FindNumAppear.java) - Find number appearing once (XOR approach)
+- [`IntersectionSortedArr.java`](DSA/Array/IntersectionSortedArr.java) - Intersection of two sorted arrays
+- [`IntersectionSortedArrOpt.java`](DSA/Array/IntersectionSortedArrOpt.java) - Optimized intersection using two pointers
 - [`LargeNum.java`](DSA/Array/LargeNum.java) - Find largest number in array
+- [`LeftRotateDth.java`](DSA/Array/LeftRotateDth.java) - Left rotate array by D positions
+- [`LeftRotateDthOpt.java`](DSA/Array/LeftRotateDthOpt.java) - Optimized left rotation
+- [`LeftRotateOne.java`](DSA/Array/LeftRotateOne.java) - Left rotate array by one position
+- [`LinearSearch.java`](DSA/Array/LinearSearch.java) - Linear search in array
+- [`MaxCosecutive.java`](DSA/Array/MaxCosecutive.java) - Maximum consecutive 1s
+- [`MissingNum.java`](DSA/Array/MissingNum.java) - Find missing number in array
+- [`MissingNumOpt.java`](DSA/Array/MissingNumOpt.java) - Optimized missing number (XOR/Sum)
+- [`MoveZeroEnd.java`](DSA/Array/MoveZeroEnd.java) - Move zeros to end of array
+- [`MoveZeroEndOpt.java`](DSA/Array/MoveZeroEndOpt.java) - Optimized move zeros to end
+- [`RemoveDup.java`](DSA/Array/RemoveDup.java) - Remove duplicates from sorted array
+- [`RightRotateDth.java`](DSA/Array/RightRotateDth.java) - Right rotate array by D positions
+- [`RightRotateDthOpt.java`](DSA/Array/RightRotateDthOpt.java) - Optimized right rotation
 - [`SecLargestNum.java`](DSA/Array/SecLargestNum.java) - Find second largest number
 - [`SmallestNum.java`](DSA/Array/SmallestNum.java) - Find smallest and second smallest
 - [`SortedArrCheck.java`](DSA/Array/SortedArrCheck.java) - Check if array is sorted
-- [`RemoveDup.java`](DSA/Array/RemoveDup.java) - Remove duplicates from sorted array
-- [`LeftRotateOne.java`](DSA/Array/LeftRotateOne.java) - Left rotate array by one position
-- [`LeftRotateDth.java`](DSA/Array/LeftRotateDth.java) - Left rotate array by D positions
-- [`LeftRotateDthOpt.java`](DSA/Array/LeftRotateDthOpt.java) - Optimized left rotation
-- [`RightRotateDth.java`](DSA/Array/RightRotateDth.java) - Right rotate array by D positions
-- [`RightRotateDthOpt.java`](DSA/Array/RightRotateDthOpt.java) - Optimized right rotation
-- [`MoveZeroEnd.java`](DSA/Array/MoveZeroEnd.java) - Move zeros to end of array
-- [`MoveZeroEndOpt.java`](DSA/Array/MoveZeroEndOpt.java) - Optimized move zeros to end
-- [`LinearSearch.java`](DSA/Array/LinearSearch.java) - Linear search in array
 - [`UnionSortedArr.java`](DSA/Array/UnionSortedArr.java) - Union of two sorted arrays (using Set)
 - [`UnionSortedArrOpt.java`](DSA/Array/UnionSortedArrOpt.java) - Optimized union using two pointers
-- [`FindNumAppear.java`](DSA/Array/FindNumAppear.java) - Find number appearing once (XOR approach)
 
 ### 🔍 Hashing
 
