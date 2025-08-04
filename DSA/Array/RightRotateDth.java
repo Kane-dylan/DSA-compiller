@@ -3,8 +3,13 @@ package DSA.Array;
 import java.util.Scanner;
 
 public class RightRotateDth {
+  
+  // sample input
+  // 8
+  // 1 2 0 4 5 0 7 8
 
   public static void main(String[] args) {
+    // input
     Scanner sc= new Scanner (System.in);
     int n= sc.nextInt();
     int arr[]=new int[n];
@@ -16,7 +21,7 @@ public class RightRotateDth {
     d=d%n;
     int k=n-d;
     int temp[]= new int[k];
-    
+    // algo 
     for (int i = 0; i < k; i++) {
       temp[i] = arr[i];
     }
