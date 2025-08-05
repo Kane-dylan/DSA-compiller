@@ -1,5 +1,6 @@
 package DSA.Array;
 
+import java.util.HashMap;
 import java.util.Scanner;
 
 public class LongestSubArr {
@@ -15,16 +16,38 @@ public class LongestSubArr {
 
     int K=sc.nextInt();
 
-    int len=0;
+    // {Brute}
+
+    // int len=0;
+    // for(int i=0; i<n; i++){
+    //   int sum=0;
+    //   for(int j=i; j<n; j++){
+    //     sum+=arr[j];
+    //       if(sum==K){
+    //         len=Math.max(len, j-i+1);
+    //       }
+    //   }
+    // }
+    // System.out.println(len);
+
+    // {Better}
+    HashMap <Long , Integer> preSumMap = new HashMap<>();
+    long sum =0;
+    int maxLen = 0;
     for(int i=0; i<n; i++){
-      int sum=0;
-      for(int j=i; j<n; j++){
-        sum+=arr[j];
-          if(sum==K){
-            len=Math.max(len, j-i+1);
-          }
+      sum+=arr[i];
+      if(sum == K){
+        maxLen=Math.max(maxLen, i+1);
+      }
+      long remaining = sum -K;
+      if(preSumMap.containsKey(remaining)){
+        int len = i - preSumMap.get(remaining);
+        maxLen = Math.max(maxLen, len);
+      }
+      if(!preSumMap.containsKey(sum)){
+        preSumMap.put(sum, i);
       }
     }
-    System.out.println(len);
+    System.out.println(maxLen);
   }
 }
