@@ -17,7 +17,7 @@ public class LongestSubArr {
     int K=sc.nextInt();
 
     // {Brute}
-
+    //
     // int len=0;
     // for(int i=0; i<n; i++){
     //   int sum=0;
@@ -31,22 +31,43 @@ public class LongestSubArr {
     // System.out.println(len);
 
     // {Better}
-    HashMap <Long , Integer> preSumMap = new HashMap<>();
-    long sum =0;
+    //
+    // HashMap <Long , Integer> preSumMap = new HashMap<>();
+    // long sum =0;
+    // int maxLen = 0;
+    // for(int i=0; i<n; i++){
+    //   sum+=arr[i];
+    //   if(sum == K){
+    //     maxLen=Math.max(maxLen, i+1);
+    //   }
+    //   long remaining = sum -K;
+    //   if(preSumMap.containsKey(remaining)){
+    //     int len = i - preSumMap.get(remaining);
+    //     maxLen = Math.max(maxLen, len);
+    //   }
+    //   if(!preSumMap.containsKey(sum)){
+    //     preSumMap.put(sum, i);
+    //   }
+    // }
+    // System.out.println(maxLen);
+
+    // {Optimal}
+
+    int left = 0;
+    int right = 0;
+    long sum = arr[0];
     int maxLen = 0;
-    for(int i=0; i<n; i++){
-      sum+=arr[i];
+
+    while(right < n){
+      while(left <= right && sum > K){
+        sum -= arr[left];
+        left++; 
+      }
       if(sum == K){
-        maxLen=Math.max(maxLen, i+1);
+        maxLen= Math.max(maxLen, right-left+1);
       }
-      long remaining = sum -K;
-      if(preSumMap.containsKey(remaining)){
-        int len = i - preSumMap.get(remaining);
-        maxLen = Math.max(maxLen, len);
-      }
-      if(!preSumMap.containsKey(sum)){
-        preSumMap.put(sum, i);
-      }
+      right++;
+      if(right < n)sum+=arr[right];
     }
     System.out.println(maxLen);
   }
