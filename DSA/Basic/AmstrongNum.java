@@ -6,16 +6,14 @@ public class AmstrongNum {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     int n = sc.nextInt();
-    int original = n;
-    int len = String.valueOf(n).length();
-    int sum = 0;
-
-    while (n != 0) {
-      int digit = n % 10; // last digit
-      sum += Math.pow(digit, len); // add digit^len
-      n /= 10; // remove last digit
+    int dup =n; // duplicate the num
+    int digits = String.valueOf(n).length();
+    int sum =0;
+    while(n > 0){
+      int digit=n%10;
+      sum +=Math.pow(digit, digits);// length in the power 
+      n/=10;
     }
-
-    System.out.println(sum == original ? "Armstrong" : "Not Armstrong");
+    System.out.println(sum == dup ? "true" : "false");
   }
 }
